@@ -1,0 +1,13 @@
+{
+  "name": "get-server-response-time",
+  "version": "1.0.0",
+  "description": "module for checking the response time of the server",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "server",
+    "time"
+  ],
+  "author": "geckyhit",
+  "license": "ISC"
+}
