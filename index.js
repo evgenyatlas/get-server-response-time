@@ -2,7 +2,10 @@ const http = require('http')
 const https = require('https')
 const { URL } = require('url')
 
-module.exports = function getServerResponseTime(urlServer, options = { timeout: 5000 }) {
+module.exports = function getServerResponseTime(urlServer, options = {}) {
+
+    options.timeout = options.timeout === undefined ? 6000 : options.timeout
+
     return new Promise((resolve, reject) => {
         try {
 
