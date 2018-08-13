@@ -1,4 +1,4 @@
-# get-server-response-time [![NPM version](https://badge.fury.io/js/get-server-response-time.svg)](https://npmjs.org/package/get-server-response-time) [![Build Status](https://travis-ci.org/jeckyhit/get-server-response-time.svg?branch=master)](https://travis-ci.org/jeckyhit/get-server-response-time)
+# get-server-response-time [![NPM version](https://badge.fury.io/js/get-server-response-time.svg)](https://npmjs.org/package/get-server-response-time)
 
 > Module for checking the response time of the server for node.js and browser
 
