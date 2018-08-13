@@ -12,6 +12,7 @@ $ npm install --save get-server-response-time
 
 ```js
 var getServerResponseTime = require('get-server-response-time')
+
 //simple call
 getServerResponseTime('https://google.com')
     .then(responseTime => {
