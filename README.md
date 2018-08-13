@@ -24,6 +24,9 @@ getServerResponseTime('https://google.com', {
     timeout: 5000 //maximum waiting time for server response | default: 5000
     responseInCaseError: true //Whether to return the response time of the server in case of an error | default: true
 })
+    .then(responseTime => {
+        console.log(responseTime)
+    })
 ```
 
 ## License
