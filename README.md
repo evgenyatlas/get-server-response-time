@@ -10,6 +10,16 @@ $ npm install --save get-server-response-time
 
 ## Usage
 
+#### for the node.js/server
+```js
+const getServerResponseTime = require('get-server-response-time')
+```
+#### for the browser/client
+```js
+const getServerResponseTime = require('get-server-response-time/client')
+```
+
+#### Example
 ```js
 var getServerResponseTime = require('get-server-response-time')
 
