@@ -1,6 +1,6 @@
 {
   "name": "get-server-response-time",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "module for checking the response time of the server for node.js and browser",
   "main": "index.js",
   "scripts": {},
